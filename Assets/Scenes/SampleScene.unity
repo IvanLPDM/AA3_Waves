@@ -323,6 +323,11 @@ MonoBehaviour:
     fase: 0
     direccion: {x: 1, y: 0}
     intensidad: 1
+--- !u!1 &196711795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3243369359916803765, guid: 5011931da1a695842af7c4557562a669, type: 3}
+  m_PrefabInstance: {fileID: 3243369360851389307}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &339422936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,8 +1130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec709deee50a1b478dedb6f8266c95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoSinusoidal: {fileID: 0}
-  objetoGerstner: {fileID: 0}
+  objetoSinusoidal: {fileID: 1996034014}
+  objetoGerstner: {fileID: 196711795}
   toggleSinusoidal: {fileID: 1560723550}
   toggleGerstner: {fileID: 1802784781}
 --- !u!1 &1356085686
@@ -1371,6 +1376,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!1 &1996034014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6139917697846922223, guid: 76219b21168554f478cd1c4567e2626c, type: 3}
+  m_PrefabInstance: {fileID: 6139917698227969642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3243369360851389307
 PrefabInstance:
   m_ObjectHideFlags: 0
